@@ -34,20 +34,21 @@ public class Main {
 
     public static void softwareVersion(int yearOSChecking, int clientOSSChecking){
         if (clientOSSChecking == 0) {
-            if (yearOSChecking >= 2015) {
+            if (yearOSChecking > 2015) {
                 System.out.println("Установите версию приложения для iOS по ссылке");
             } else if (yearOSChecking <= 2015) {
                 System.out.println("Установите облегченную версию приложения для iOS по ссылке");
 
             }
-            if (clientOSSChecking == 1) {
-                if (yearOSChecking >= 2015) {
-                    System.out.println("Установите версию приложения для Android по ссылке");
-                } else if (yearOSChecking <= 2015) {
-                    System.out.println("Установите облегченную версию приложения для Android по ссылке");
-                }
+        }
+        if (clientOSSChecking == 1) {
+            if (yearOSChecking > 2015) {
+                System.out.println("Установите версию приложения для Android по ссылке");
+            } else if (yearOSChecking <= 2015) {
+                System.out.println("Установите облегченную версию приложения для Android по ссылке");
             }
         }
+
 
     }
 
