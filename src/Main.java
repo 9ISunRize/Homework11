@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Задача 111");
+        System.out.println("Задача 1");
         int year = 2024;
         leapYear(year);
 
