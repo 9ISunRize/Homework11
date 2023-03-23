@@ -51,7 +51,6 @@ public class Main {
 
 
     }
-
     public static int deliveryTime( int DayNum, int Distance ) {
         Distance = 120;
         DayNum = 1;
@@ -64,6 +63,7 @@ public class Main {
 
         return DayNum;
     }
+
 
 
 
