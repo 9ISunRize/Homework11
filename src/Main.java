@@ -8,7 +8,7 @@ public class Main {
 
         System.out.println("Задача 2 ");
         int clientOSS = 1;
-        int yearOS = 2013;
+        int yearOS = 2014;
         softwareVersion(yearOS, clientOSS);
 
 
