@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Задача 1");
+        System.out.println("Задача 111");
         int year = 2024;
         leapYear(year);
 
@@ -8,7 +8,7 @@ public class Main {
 
         System.out.println("Задача 2 ");
         int clientOSS = 1;
-        int yearOS = 2014;
+        int yearOS = 2013;
         softwareVersion(yearOS, clientOSS);
 
 
@@ -51,7 +51,6 @@ public class Main {
 
 
     }
-
     public static int deliveryTime( int DayNum, int Distance ) {
         Distance = 120;
         DayNum = 1;
@@ -64,6 +63,7 @@ public class Main {
 
         return DayNum;
     }
+
 
 
 
